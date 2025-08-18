@@ -35,7 +35,6 @@
     }
 
     @include on-desktop{
-
       grid-column: 3 / 11;
     }
   }
@@ -52,19 +51,16 @@
     }
 
     @include on-desktop{
-
       grid-column: 3 / 11;
     }
   }
 
   &__button{
     @include on-tablet{
-
       grid-column: 2 / 6;
     }
 
     @include on-desktop{
-
       grid-column: 5 / 9;
     }
   }
