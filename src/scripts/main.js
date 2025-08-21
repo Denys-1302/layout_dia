@@ -15,9 +15,26 @@ document.querySelector('.prev').addEventListener('click', () => {
 });
 
 
-const menuIcon = document.querySelector('.icon--menu');
-const menuNav = document.querySelector('.menu__nav');
+// const menuIcon = document.querySelector('.icon--menu');
+// const menuNav = document.querySelector('.menu__nav');
 
-menuIcon.addEventListener('click', () => {
-  menuNav.classList.toggle('active'); // додаємо/забираємо клас active
+// menuIcon.addEventListener('click', () => {
+//   menuNav.classList.toggle('active');
+// });
+
+
+const menuToggle = document.querySelector('.icon--menu');
+const menu = document.querySelector('.menu__nav');
+const menuLinks = document.querySelectorAll('.menu__nav .nav__link');
+
+// відкривати/закривати меню по кліку на іконку
+menuToggle.addEventListener('click', () => {
+  menu.classList.toggle('active');
+});
+
+// закривати меню після кліку на будь-яке посилання
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('active');
+  });
 });
