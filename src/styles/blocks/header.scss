@@ -12,7 +12,9 @@
 
 .top-bar {
   @include page-grid;
+
   --colums: 2;
+
   padding: 20px 0;
 
   &__icon {
@@ -47,6 +49,7 @@
 
   &__link {
     --colums: 1;
+
     text-align: end;
     margin-right: 20px;
     padding-top: 10px;
