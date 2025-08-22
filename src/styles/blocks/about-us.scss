@@ -43,7 +43,8 @@
   &--info p{
     font-size: 22px;
     color: #6C788B;
-    letter-spacing: 1px;
+    letter-spacing: 0;
+    line-height: 150%;
 
     @include on-tablet {
      font-size: 24px;

@@ -18,7 +18,7 @@
   padding: 20px 0;
 
   &__icon {
-    margin-left: 20px;
+    margin-left: 0;
 
     @include on-tablet {
       grid-column: span 2;
@@ -27,7 +27,7 @@
 
     @include on-desktop {
       grid-column: span 3;
-      margin-left: 54px;
+      // margin-left: 54px;
     }
 
     @include on-large-desktop {
@@ -60,12 +60,12 @@
     }
 
     @include on-desktop {
-      grid-column: span 3;
+      grid-column: span 2;
       margin-right: 54px;
     }
 
     @include on-large-desktop {
-      grid-column: span 3;
+      grid-column: span 2;
       margin-right: 0;
     }
 
@@ -103,12 +103,12 @@
 
   @include on-desktop {
     display: flex;
-    grid-column: span 6;
+    grid-column: span 7;
     justify-content: center;
   }
 
   @include on-large-desktop {
-    grid-column: span 6;
+    grid-column: span 7;
   }
 
   &__list {
@@ -126,6 +126,8 @@
     font-size: 13px;
     text-transform: uppercase;
     font-family: Poppins, sans-serif;
+    letter-spacing: 3px;
+    line-height: 150%;
   }
 }
 

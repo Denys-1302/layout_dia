@@ -28,7 +28,14 @@
         <div class="top-bar">
           <div class="top-bar__icon">
             <a href="#" class="top-bar__logo">
-              <img src="./images/logo/Logo.png" alt="logo">
+              <!-- <img src="./images/logo/Logo.png" alt="logo"> -->
+              <svg width="46" height="28"
+                viewBox="0 0 46 28" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.128 18.964L14.428 5.356L20.728 18.964H8.128ZM22.24 22.204L24.292 26.632H27.856L16.12 1.432H12.736L1 26.632H4.564L6.616 22.204H22.24Z" fill="white"/>
+                <path d="M28.2025 3.448C28.2025 4.168 28.4185 4.744 28.8865 5.212C29.3545 5.68 29.9305 5.896 30.6505 5.896C31.3345 5.896 31.9105 5.68 32.3785 5.212C32.8465 4.744 33.0985 4.168 33.0985 3.448C33.0985 2.764 32.8465 2.188 32.3785 1.72C31.9105 1.252 31.3345 1 30.6505 1C29.9305 1 29.3545 1.252 28.8865 1.72C28.4185 2.188 28.2025 2.764 28.2025 3.448ZM32.1985 8.632H29.1025V26.632H32.1985V8.632Z" fill="white"/>
+                <path d="M38.6183 11.332V8.632H35.6303V26.632H38.7263V18.244C38.7263 17.236 38.7983 16.336 38.9783 15.472C39.1223 14.644 39.4103 13.924 39.8423 13.312C40.2743 12.736 40.8143 12.268 41.4983 11.944C42.1463 11.62 43.0103 11.44 44.0183 11.44C44.3423 11.44 44.6303 11.476 44.9183 11.512C45.2063 11.548 45.4943 11.584 45.8183 11.656V8.38C45.5303 8.344 45.2423 8.308 44.9543 8.272C44.6663 8.236 44.3423 8.2 44.0543 8.2C42.7583 8.2 41.6783 8.488 40.7783 9.028C39.8783 9.568 39.1583 10.324 38.6183 11.332Z" fill="white"/>
+              </svg>
             </a>
 
 
@@ -52,51 +59,52 @@
     </header>
 
 
-    <section class="strategic">
-      <div class="strategic__content">
-        <div class="strategic__title">
-          <h1>
-            Strategic Agency
-          </h1>
-          <p>
-           We believe in the power of bold ideas that can solve business challenges.
-          </p>
-        </div>
-        <div class="strategic__btn">
-          <button onclick="location.href='#expertise'" class="blue_btn">Learn more</button>
-        </div>
+    <section class="strategic-main ">
+      <div class="strategic container">
+        <div class="strategic__content">
+          <div class="strategic__title">
+            <h1>
+              Strategic Agency
+            </h1>
+            <p>
+            We believe in the power of bold ideas that can solve business challenges.
+            </p>
+          </div>
+          <div class="strategic__btn">
+            <button onclick="location.href='#expertise'" class="blue_btn">Learn more</button>
+          </div>
 
+        </div>
+        <div class="strategic__slider">
+          <div class="slider">
+            <div class="slide slide1 active">
+              <div class="content">
+                <h3>INTRO</h3>
+                <p>By the same illusion which lifts the horizon.</p>
+              </div>
+            </div>
+
+            <div class="slide slide2">
+              <div class="content">
+                <h3>SECOND</h3>
+                <p>Exploring deeper layers of time.</p>
+              </div>
+            </div>
+
+            <div class="slide slide3">
+              <div class="content">
+                <h3>THIRD</h3>
+                <p>Moments frozen in digital frames.</p>
+              </div>
+            </div>
+
+            <div class="nav_btn">
+              <button class="prev">&lt;</button>
+              <button class="next">&gt;</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="strategic__slider">
-        <div class="slider">
-          <div class="slide slide1 active">
-            <div class="content">
-              <h3>INTRO</h3>
-              <p>By the same illusion which lifts the horizon.</p>
-            </div>
-          </div>
-
-          <div class="slide slide2">
-            <div class="content">
-              <h3>SECOND</h3>
-              <p>Exploring deeper layers of time.</p>
-            </div>
-          </div>
-
-          <div class="slide slide3">
-            <div class="content">
-              <h3>THIRD</h3>
-              <p>Moments frozen in digital frames.</p>
-            </div>
-          </div>
-
-          <div class="nav_btn">
-            <button class="prev">&lt;</button>
-            <button class="next">&gt;</button>
-          </div>
-        </div>
-      </div>
-
     </section>
 
     <section id="about" class="about__us container">
@@ -113,39 +121,41 @@
       </div>
     </section>
 
-    <section id="expertise" class="expertise container">
-      <h2 class="expertise__title">
-        Our expertise
-      </h2>
-      <div class="expertise__content container">
-        <div class="expertise__content--item ">
-          <img src="./images/expertise/expert1.png" alt="expertise photo">
-          <h3>Branding</h3>
-          <p>
-            We create additional value for companies,
-             products, services as well as verbal
-            and visual ways to deliver it to the audience.
-          </p>
-        </div>
-        <div class="expertise__content--item">
-          <img src="./images/expertise/expert2.png" alt="expertise photo">
-          <h3>Communication</h3>
-          <p>
-            We strive to create communications that
-            can increase media performance. We use
-            everything — words, meanings, stories,
-            art, movies.
-          </p>
-        </div>
-        <div class="expertise__content--item">
-          <img src="./images/expertise/expert3.png" alt="expertise photo">
-          <h3>Strategy</h3>
-          <p>
-            We create business growth strategies,
-            from the moment of its birth to the
-            achievement of the necessary business
-            indicators.
-          </p>
+    <section id="expertise">
+      <div class="expertise container">
+        <h2 class="expertise__title">
+          Our expertise
+        </h2>
+        <div class="expertise__content container">
+          <div class="expertise__content--item ">
+            <img src="./images/expertise/expert1.png" alt="expertise photo">
+            <h3>Branding</h3>
+            <p>
+              We create additional value for companies,
+              products, services as well as verbal
+              and visual ways to deliver it to the audience.
+            </p>
+          </div>
+          <div class="expertise__content--item">
+            <img src="./images/expertise/expert2.png" alt="expertise photo">
+            <h3>Communication</h3>
+            <p>
+              We strive to create communications that
+              can increase media performance. We use
+              everything — words, meanings, stories,
+              art, movies.
+            </p>
+          </div>
+          <div class="expertise__content--item">
+            <img src="./images/expertise/expert3.png" alt="expertise photo">
+            <h3>Strategy</h3>
+            <p>
+              We create business growth strategies,
+              from the moment of its birth to the
+              achievement of the necessary business
+              indicators.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -341,7 +351,7 @@
 
           <div class="footer__form">
             <h3 class="footer__title">Send us a message</h3>
-            <form>
+            <form id="contact-form">
               <input type="email"
               placeholder="email@example.com" required>
               <input type="text"
@@ -363,7 +373,7 @@
             <div class="footer__contact-item">
               <span class="footer__contact-label">Visit us</span>
               <span class="footer__contact-value">
-                <a href="https://maps.app.goo.gl/PWpnQWyc5ZqQd78f7">
+                <a href="https://maps.app.goo.gl/PWpnQWyc5ZqQd78f7" target="_blank">
                   2905 West Drive, Buffalo Grove
                 </a>
               </span>
@@ -407,7 +417,17 @@
 
         <div class="footer__bottom">
           <div class="footer__logo">
-            <img src="./images/logo/Logo.png" alt="logo">
+            <!-- <img src="./images/logo/Logo.png" alt="logo"> -->
+            <a href="#">
+              <svg width="46" height="28"
+               viewBox="0 0 46 28" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.128 18.964L14.428 5.356L20.728 18.964H8.128ZM22.24 22.204L24.292 26.632H27.856L16.12 1.432H12.736L1 26.632H4.564L6.616 22.204H22.24Z" fill="white"/>
+                <path d="M28.2025 3.448C28.2025 4.168 28.4185 4.744 28.8865 5.212C29.3545 5.68 29.9305 5.896 30.6505 5.896C31.3345 5.896 31.9105 5.68 32.3785 5.212C32.8465 4.744 33.0985 4.168 33.0985 3.448C33.0985 2.764 32.8465 2.188 32.3785 1.72C31.9105 1.252 31.3345 1 30.6505 1C29.9305 1 29.3545 1.252 28.8865 1.72C28.4185 2.188 28.2025 2.764 28.2025 3.448ZM32.1985 8.632H29.1025V26.632H32.1985V8.632Z" fill="white"/>
+                <path d="M38.6183 11.332V8.632H35.6303V26.632H38.7263V18.244C38.7263 17.236 38.7983 16.336 38.9783 15.472C39.1223 14.644 39.4103 13.924 39.8423 13.312C40.2743 12.736 40.8143 12.268 41.4983 11.944C42.1463 11.62 43.0103 11.44 44.0183 11.44C44.3423 11.44 44.6303 11.476 44.9183 11.512C45.2063 11.548 45.4943 11.584 45.8183 11.656V8.38C45.5303 8.344 45.2423 8.308 44.9543 8.272C44.6663 8.236 44.3423 8.2 44.0543 8.2C42.7583 8.2 41.6783 8.488 40.7783 9.028C39.8783 9.568 39.1583 10.324 38.6183 11.332Z" fill="white"/>
+              </svg>
+
+            </a>
           </div>
           <div class="footer-links">
             <nav class="footer__nav">
