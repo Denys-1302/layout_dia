@@ -7,7 +7,7 @@ background-color: #2C2C2C;
 .strategic{
   justify-self: center;
   color: #fff;
-  padding-top: 27px;
+
 
   @include page-grid;
 
@@ -62,11 +62,18 @@ background-color: #2C2C2C;
   &__title h1{
     margin: 0;
     font-weight: 600;
-    font-size: 52px;
     font-family: Poppins, sans-serif;
     color: #fff;
     line-height: 68px;
     letter-spacing: -2px;
+
+    @include on-mobile{
+      font-size: 52px;
+    }
+
+    @include on-tablet{
+      font-size: 64px;
+    }
   }
 
   &__title p{

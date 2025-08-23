@@ -37,8 +37,15 @@
 }
 
   &__title{
-    font-size: 44px;
     margin-bottom: 56px;
+
+    @include on-mobile{
+      font-size: 44px;
+    }
+
+    @include on-tablet{
+      font-size: 52px;
+    }
   }
 
   &__content--item{
