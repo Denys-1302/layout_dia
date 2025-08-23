@@ -20,6 +20,10 @@
   &__icon {
     margin-left: 0;
 
+    @include on-mobile{
+      margin-left: 21px;
+    }
+
     @include on-tablet {
       grid-column: span 2;
       margin-left: 41px;
